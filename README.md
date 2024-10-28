@@ -1,6 +1,6 @@
 # Practice System Login-2 (common)
 
-System Login-2 ทำขึ้นเพื่อศึกษา Spring boot, Restful, Database, Jwt, Kafka, Redis, MVC และการทำงานของระบบ
+common จะทำการแปลงออบเจ็กต์เป็น json ให้ แล้วส่งไปยัง kafka เมื่อ consumer ดึงข้อมูลจะทำการแปลงค่ากลับ
 
 ## Structure Modules
 
@@ -8,7 +8,7 @@ System Login-2 ทำขึ้นเพื่อศึกษา Spring boot, Res
 * email (consumer)
 * common ทำหน้าที่เป็นตัวกลางเพื่อแชร์ข้อมูล email ให้กับ kafka
 
-## Structure email
+## Structure
 
     └── src/main/java/com/login
 
